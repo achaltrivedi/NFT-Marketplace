@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
+
 function initCanisterEnv() {
   let localCanisters, prodCanisters;
   try {
@@ -105,7 +106,6 @@ module.exports = {
       process: require.resolve("process/browser"),
     }),
   ],
-  // proxy /api to port 8000 during development
   devServer: {
     historyApiFallback: true,
     proxy: {
@@ -122,3 +122,4 @@ module.exports = {
     liveReload: true,
   },
 };
+

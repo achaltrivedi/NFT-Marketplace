@@ -1,6 +1,6 @@
 body {
   font-size: 1.5rem;
-  background-color: #141416 !important;
+  background-color: #0e0e0f !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -416,38 +416,43 @@ body {
   flex-grow: 1;
 }
 .header-navButtons-3 {
-  color: #777e90;
+  color: #ddbebe;
   font-size: 20px;
   margin-right: 8px;
   text-transform: none;
 }
 .header-left-4 {
-  margin-left: 16px;
+  margin-left: 6px;
 }
 .header-empty-6 {
   flex-grow: 1;
 }
 .header-space-8 {
-  margin-right: 16px;
+  margin-right: 12px;
 }
 .header-vertical-9 {
-  height: 35px;
-  border-left: 0.5px solid #ffffff;
-  margin-right: 16px;
+  height: 0px;
+  border-left: 0.5px solid #d59a9a;
+  margin-left: 20px;
+  margin-right:0.5px;
 }
 .header-logo-11 {
-  margin-right: 1px;
-  height: 50px;
-  width: 55px;
+  margin-right: 0.5px;
+  height: 75px;
+  width: 75px;
+  margin-left:0.5px;
 }
 
 .header-logo-text {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 12px;
+
 }
 
 .header-appBar-13 {
   height: 80px;
-  border-bottom: 0.4px solid #353945;
+  border-bottom: 0.4px solid #c7d0eb;
 }
 
 *,
